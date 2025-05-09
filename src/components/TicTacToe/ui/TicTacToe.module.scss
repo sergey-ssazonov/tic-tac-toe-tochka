@@ -1,0 +1,110 @@
+.game_field__wrap {
+  width: 100%;
+
+  .game_field__animation_win {
+    position: fixed;
+  }
+
+  .game_field {
+    width: 90vw;
+    max-width: 200px;
+    height: 90vw;
+    max-height: 200px;
+    position: relative;
+    margin: 0 auto;
+
+    .game_field__animation {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    .game_field__grid {
+      width: 85%;
+      height: 85%;
+      display: grid;
+      position: absolute;
+      top: 8%;
+      left: 6%;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 0.5rem;
+    }
+
+    .game_field__cell {
+      width: 100%;
+      height: 100%;
+      z-index: 5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .game_field__animation_symbol {
+        width: 75%;
+        height: 75%;
+      }
+    }
+  }
+}
+
+.fade_blink {
+  animation: fadeBlink 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes fadeBlink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade_out_all {
+  animation: fadeOutAll 0.5s ease forwards;
+}
+
+@keyframes fadeOutAll {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+// @media (max-width: $breakpoint-sm) {
+//   .game_field {
+//     width: 80vw;
+//     height: 80vw;
+//   }
+
+//   .game_field__grid {
+//     gap: 0.3rem;
+//   }
+// }
+
+// @media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+//   .game_field {
+//     width: 85vw;
+//     height: 85vw;
+//   }
+
+//   .game_field__grid {
+//     gap: 0.4rem;
+//   }
+// }
+
+// @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+//   .game_field {
+//     width: 90vw;
+//     height: 90vw;
+//   }
+
+//   .game_field__grid {
+//     gap: 0.5rem;
+//   }
+// }

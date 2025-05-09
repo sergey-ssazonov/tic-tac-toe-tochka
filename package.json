@@ -11,6 +11,7 @@
     "prettier": "npx prettier . --write"
   },
   "dependencies": {
+    "lottie-react": "^2.4.1",
     "prettier": "^3.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

@@ -1,5 +1,9 @@
-function App() {``
-  return <main>джаотплит</main>;
+import { NotFoundPage } from "./pages/NotFoundPage";
+
+function App() {
+  return (
+      <NotFoundPage />
+  );
 }
 
 export default App;
