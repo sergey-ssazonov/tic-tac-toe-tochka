@@ -6,8 +6,8 @@
 
 ## Разработчик
 
-- Сазонов Сергей Павлович  
-- Telegram: [@sergey_ssazonov](https://t.me/sergey_ssazonov)  
+- Сазонов Сергей Павлович
+- Telegram: [@sergey_ssazonov](https://t.me/sergey_ssazonov)
 - Резюме: [Ссылка на резюме](https://disk.yandex.ru/i/-pe-KIwqW2y57g)
 
 ## Ссылка на работающий образец

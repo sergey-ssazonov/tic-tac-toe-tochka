@@ -1,10 +1,7 @@
 import { NotFoundPage } from "./pages/NotFoundPage";
 
 function App() {
-  return (
-      <NotFoundPage />
-  );
+  return <NotFoundPage />;
 }
 
 export default App;
-
