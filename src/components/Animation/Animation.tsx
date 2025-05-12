@@ -1,12 +1,12 @@
 import { type FC } from "react";
 import Lottie from "lottie-react";
 
-interface AnimationProps {
+type IAnimationProps =  {
   animationData: any;
   className?: string;
 }
 
-const Animation: FC<AnimationProps> = ({ animationData, className }) => {
+const Animation: FC<IAnimationProps> = ({ animationData, className }) => {
   return (
     <Lottie
       loop={false}
